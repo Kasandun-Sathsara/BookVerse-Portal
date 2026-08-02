@@ -12,14 +12,7 @@ BookVerse Online Library Portal is a Java EE JSP Web Application demonstrating a
 - Bootstrap 5
 - Maven
 
-## Core Concepts Demonstrated
-1. **MVC Architecture:** Separation of concerns using Controllers (Servlets), Views (JSPs), and Model (JavaBeans + Repositories).
-2. **In-Memory Data Storage:** The `DataStore` Singleton uses thread-safe static Maps to persist data during the application lifecycle.
-3. **Advanced JSP & EL:** Complete elimination of Scriptlets. Extensive use of Expression Language (`${}`) with `pageScope`, `requestScope`, and `sessionScope`.
-4. **JSTL Core Tags:** Used for conditional logic (`<c:if>`, `<c:choose>`) and iteration (`<c:forEach>`) in views.
-5. **Custom Tags:** Reusable UI components like `<t:header>`, `<t:sidebar>`, `<t:footer>`, `<t:alert>`, and `<t:roleBadge>` encapsulated as tag files.
-6. **Role-Based Access Control (RBAC):** `AuthorizationFilter` intercepts requests to validate active sessions and route users based on role permissions (Admin, Manager, Staff, Member).
-7. **Listener Pattern:** `AppInitListener` bootstraps the in-memory data when Tomcat starts the application.
+
 
 ## How to Run
 
