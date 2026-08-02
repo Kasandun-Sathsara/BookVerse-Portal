@@ -39,4 +39,13 @@ The application initializes with the following default accounts (username / pass
 - **staff** / staff123 (Staff Role)
 - **member** / member123 (Member Role)
 
-
+## Project Structure
+- `src/main/java/lk/jiat/bookverselibraryportal/bean/`: JavaBeans serving as Data Transfer Objects.
+- `src/main/java/lk/jiat/bookverselibraryportal/config/`: Singleton DataStore configuration.
+- `src/main/java/lk/jiat/bookverselibraryportal/controller/`: Servlet Controllers mapping HTTP requests to JSP views.
+- `src/main/java/lk/jiat/bookverselibraryportal/repository/`: Data access logic wrapping the in-memory Collections.
+- `src/main/java/lk/jiat/bookverselibraryportal/service/`: Business logic delegators.
+- `src/main/java/lk/jiat/bookverselibraryportal/filter/`: Security and authorization filters.
+- `src/main/java/lk/jiat/bookverselibraryportal/listener/`: Application lifecycle listeners.
+- `src/main/webapp/WEB-INF/views/`: Protected JSP pages.
+- `src/main/webapp/WEB-INF/tags/`: Custom tag component files.
